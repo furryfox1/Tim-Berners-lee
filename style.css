@@ -1,0 +1,105 @@
+body{
+text-align: center;
+padding-top:800px;
+
+}
+
+.parallax-inner{
+text-align: center;
+display: table-cell;
+vertical-align: middle;
+position: relative;
+}
+
+img{
+border-radius: 50%;
+margin-bottom: 50px;
+width: 300px;
+}
+
+#welcome{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background: linear-gradient(cyan 0%, navy 100%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    height: 800px;
+   
+}
+
+.menu{
+    font-family: Montserrat;
+top: 0;
+margin-top: 0;
+position:fixed;
+z-index: 10;
+list-style: none;
+width: 100%;
+background-color:lightskyblue ;
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 50px;
+}
+
+h3{
+    font-family: Montserrat;
+    font-size: 30px; ;
+}
+
+#info{
+    font-family: Montserrat;
+    padding: 50px;
+
+}
+
+.links{
+    float: left;
+   font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.links:hover{
+    background-color: royalblue;
+    font-size: 30px;
+    font-weight: bold;
+ 
+}
+
+#Articles{ 
+font-size: larger;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#Articles a{
+    text-decoration: underline !important;
+    color:black !important;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+#Contacts{
+    background-color: lightgreen;
+
+}
+
+.contact1 h3{
+    display: inline;
+}
+#Contacts iframe{
+width: 100%;
+}
